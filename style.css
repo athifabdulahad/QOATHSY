@@ -6,10 +6,22 @@ body {
     align-items: center;
     height: 100vh;
     background-color: greenyellow;
+    background-image: url("./assets/background-5.webp");
+    background-size: cover;
+    
 }
 
 main {
     text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+h1, p {
+    color:#232227;
+}
+p{
+    font-weight: bold;
 }
 
 .avatar {
@@ -28,6 +40,8 @@ main {
     text-decoration: none;
     font-size: x-large;
     font-weight: bold;
+    transition: 1s;
+   
 }
 
 .sosmed-icon {
@@ -52,5 +66,12 @@ main {
 
 .sosmed:hover{
     background-color:aqua;
-    color: aliceblue;
+    color: black;
+}
+
+.sosmed-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 8px;
 }
